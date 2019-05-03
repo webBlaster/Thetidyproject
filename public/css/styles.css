@@ -4,17 +4,22 @@ body{
     border:none;
 }
 .section{
-    height: 600px;
+    height: 400px;
     width:100%;
     text-align:center;
+    padding:50px;
 }
 #top{
     cursor: pointer;
     position:fixed;
+    text-align:center;
     top:90vh;
     height: 40px;
     width:40px;
     right:10px;
     background:black;
     color:white;
+}
+#footer{
+    height:100px;
 }

@@ -13,31 +13,82 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="public/css/styles.css">
     <title>The Tidy Project</title>
 </head>
 <body>
+
+    <div id="navigation">
+            <nav>
+                    <div class="nav-wrapper blue">
+                      <a href="#!" class="brand-logo"></a>
+                      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                      <ul class="right hide-on-med-and-down">
+                        <li><a href="">Volunteer</a></li>
+                        <li><a href="">Donate</a></li>
+                        <li><a href="">Contact</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                
+                  <ul class="sidenav" id="mobile-demo">
+                    <li><a href="">Volunteer</a></li>
+                    <li><a href="">Donate</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+    </div>
+
     <div id="firstsection" class="section blue">
-        <p>first</p>
+        <h1>Welcoming Section</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Accusantium ipsum natus pariatur, molestiae consectetur voluptatem officiis?
+             Assumenda dolore reprehenderit at velit cumque, harum necessitatibus dicta porro.
+            Ipsa eveniet illum deserunt?</p>
     </div>
 
     <div id="secondsection" class="section grey">
-        <p>second</p>
+        <h2>Explaining Phase</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Aperiam soluta ut officia autem,
+            fugit blanditiis vel hic, unde dolor natus omnis velit exercitationem,
+             similique labore veritatis totam voluptas odit assumenda?</p>
     </div>
 
-    <div id="thirdsection" class="section orange">
-        <p>third</p>
+    <div id="thirdsection" class="section brown">
+            <h2>Explaining Phase</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aperiam soluta ut officia autem,
+                fugit blanditiis vel hic, unde dolor natus omnis velit exercitationem,
+                 similique labore veritatis totam voluptas odit assumenda?</p>
     </div>
 
-    <div id="fourthsection" class="section red">
-        <p>fourth</p>
+    <div id="fourthsection" class="section white">
+            <h2>Explaining Phase</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aperiam soluta ut officia autem,
+                fugit blanditiis vel hic, unde dolor natus omnis velit exercitationem,
+                 similique labore veritatis totam voluptas odit assumenda?</p>
     </div>
 
-    <div id="fifthsection" class="section black">
-        <p>fifth</p>
+    <div id="fifthsection" class="section blue">
+            <h2>Explaining Phase</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aperiam soluta ut officia autem,
+                fugit blanditiis vel hic, unde dolor natus omnis velit exercitationem,
+                 similique labore veritatis totam voluptas odit assumenda?</p>
+    </div>
+
+    <div id="footer" class="section grey">
+        <p>copyright@thetidyproject</p>
     </div>
 
     <div id="top" class="btn black-text white">^</div>
-    
+<script>
+ $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>   
 </body>
 </html>
