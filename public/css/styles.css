@@ -9,11 +9,12 @@ body{
     text-align:center;
 }
 #top{
+    cursor: pointer;
     position:fixed;
     top:90vh;
-    height: 10px;
+    height: 40px;
+    width:40px;
     right:10px;
-    padding: 20px;
     background:black;
     color:white;
 }
