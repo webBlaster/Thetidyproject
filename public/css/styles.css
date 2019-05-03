@@ -8,6 +8,9 @@ body{
     text-align:center;
     padding:50px;
 }
+#firstsection p{
+    font-size: 24px;
+}
 #top{
     cursor: pointer;
     position:fixed;
@@ -19,6 +22,21 @@ body{
     background:black;
     color:white;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
 #footer{
     height:100px;
+}
+@media screen and (max-width:700px){
+    #firstsection p{
+        font-size:18px;
+    }
+    .grid-container {
+        display:block;
+    }
+    .grid-item{
+        margin:30px;
+    }
 }
