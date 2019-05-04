@@ -28,12 +28,12 @@ ul{
     width:50%;
 }
 #firstsection{
-    background-image:url("/public/media/first\ page\ background.png");
+    background-image:url("../media/first\ page\ background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 #secondsection{
-    background-image:url("/public/media/second\ page\ background.png");
+    background-image:url("../media/second\ page\ background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,7 +65,7 @@ ul{
     color:white;
 }
 #sixthsection{
-    background-image:url("/public/media/partners\ bkgrnd\ white.png");
+    background-image:url("../media/partners\ bkgrnd\ white.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
