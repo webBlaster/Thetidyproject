@@ -22,6 +22,9 @@ ul{
 .cus-btn{
     border-radius:60px;
 }
+.circle-border{
+    border:6px solid white !important;
+}
 #top{
     cursor: pointer;
     position:fixed;
