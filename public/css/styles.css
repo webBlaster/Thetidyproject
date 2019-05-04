@@ -25,6 +25,12 @@ ul{
 .circle-border{
     border:6px solid white !important;
 }
+#sponsorlist .row{
+    width:100%;
+}
+#sponsorlist img{
+    width:40%;
+}
 #top{
     cursor: pointer;
     position:fixed;
@@ -45,5 +51,8 @@ ul{
     }
     #firstsection img{
         width:100%;
+    }
+    #sponsorlist img{
+        width:70%;
     }
 }
