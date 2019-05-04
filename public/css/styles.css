@@ -41,10 +41,14 @@ ul{
     border-radius:60px;
 }
 .circle-border{
-    border:6px solid white !important;
+    border:6px solid grey !important;
+    padding:20px;
 }
 #sponsorlist .row{
     width:100%;
+}
+.media-partners{
+    width:50% !important;
 }
 #sponsorlist img{
     width:40%;
