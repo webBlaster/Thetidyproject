@@ -15,12 +15,27 @@ ul{
 .section p{
     font-size:24px;
 }
+#theproblem{
+    width:100%;
+    margin-bottom:-5px;
+    padding:0;
 
+}
 #firstsection p{
     font-size: 24px;
 }
 #firstsection img{
     width:50%;
+}
+#firstsection{
+    background-image:url("/public/media/first\ page\ background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#secondsection{
+    background-image:url("/public/media/second\ page\ background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .cus-btn{
     border-radius:60px;
@@ -44,6 +59,11 @@ ul{
     right:10px;
     background:black;
     color:white;
+}
+#sixthsection{
+    background-image:url("/public/media/partners\ bkgrnd\ white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #footer{
     height:150px;
