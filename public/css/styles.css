@@ -12,11 +12,15 @@ ul{
     text-align:center;
     padding:50px;
 }
+
 #firstsection p{
     font-size: 24px;
 }
 #firstsection img{
     width:50%;
+}
+.cus-btn{
+    border-radius:60px;
 }
 #top{
     cursor: pointer;
