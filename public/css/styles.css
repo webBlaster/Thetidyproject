@@ -12,6 +12,9 @@ ul{
     text-align:center;
     padding:50px;
 }
+.section p{
+    font-size:24px;
+}
 
 #firstsection p{
     font-size: 24px;
@@ -43,11 +46,11 @@ ul{
     color:white;
 }
 #footer{
-    height:100px;
+    height:150px;
 }
 @media screen and (max-width:700px){
-    #firstsection p{
-        font-size:18px;
+    #firstsection p, .section p{
+        font-size:17px;
     }
     #firstsection img{
         width:100%;
