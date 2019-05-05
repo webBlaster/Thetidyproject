@@ -1,6 +1,7 @@
 //get dom reference
 var donatebtn = document.querySelectorAll(".donatebtn");
 var volunteerbtn = document.querySelectorAll(".vlrbtn");
+var top = document.querySelector("#top");
 
 //functions
 var donate = function() {
@@ -20,3 +21,7 @@ donatebtn.forEach(function(btn, index) {
 volunteerbtn.forEach(function(btn, index) {
   btn.addEventListener("click", volunteer);
 });
+
+var scrolltop = function() {
+  window.scrollBy(0, -10000);
+};
