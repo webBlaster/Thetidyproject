@@ -5,6 +5,7 @@ body{
     margin:0;
     padding:0;
     border:none;
+    font-family: 'Noto Sans TC' !important;
 }
 ul{
     list-style-type: disc !important;
