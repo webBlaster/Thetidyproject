@@ -118,6 +118,11 @@ ul{
     background-size:cover;
     height:500px;
 }
+#fourthsection{
+    background-image: url("../media/ethiopia-wash.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 @media screen and (max-width:700px){
     #firstsection p, .section p{
         font-size:17px;
