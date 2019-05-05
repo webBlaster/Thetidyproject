@@ -25,3 +25,6 @@ volunteerbtn.forEach(function(btn, index) {
 var scrolltop = function() {
   window.scrollBy(0, -10000);
 };
+var scrolltobutt = function() {
+  window.scrollBy(0, 10000);
+};
