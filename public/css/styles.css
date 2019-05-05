@@ -40,12 +40,18 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#secondsection h3{
+    font-weight: 700;
+}
 .cus-btn{
     border-radius:60px;
 }
 .circle-border{
-    border:6px solid grey !important;
+    border:6px solid rgb(158, 155, 155) !important;
     padding:20px;
+}
+#imagecontainer h4{
+    font-weight:700;
 }
 #sponsorlist .row{
     width:100%;
