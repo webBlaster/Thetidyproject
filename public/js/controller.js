@@ -21,6 +21,7 @@ donatebtn.forEach(function(btn, index) {
 volunteerbtn.forEach(function(btn, index) {
   btn.addEventListener("click", volunteer);
 });
+
 //Other scroll functions
 var scrolltop = function() {
   window.scrollBy(0, -10000);
@@ -30,8 +31,8 @@ var scrolltobutt = function() {
 };
 
 var scrolltoabout = function() {
-  window.scrollBy(0, 1600);
+  window.scrollBy(0, 1700);
 };
 var scrolltoaboutres = function() {
-  window.scrollBy(0, 830);
+  window.scrollBy(0, 890);
 };

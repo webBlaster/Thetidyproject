@@ -123,6 +123,18 @@ ul{
     background-repeat: no-repeat;
     background-size:cover;
 }
+.quote{
+    width:60%;
+    margin:45px auto;
+    border-top:3px solid white;
+    font-size:16px;
+    padding:20px;
+    text-align:justify;
+    margin-bottom:5px;
+}
+.quotespitter{
+    font-size:11px !important;
+}
 @media screen and (max-width:700px){
     #firstsection p, .section p{
         font-size:17px;
@@ -138,5 +150,9 @@ ul{
     }
     #imagecontainer{
         padding-top:50px;
+    }
+    .quote{
+        width:100%;
+        padding:0;
     }
 }
