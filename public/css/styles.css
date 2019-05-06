@@ -109,6 +109,9 @@ ul{
 #footer{
     padding:8px;
 }
+#orgby{
+    font-size:16px;
+}
 #footer p {
     font-size:16px;
 }
@@ -146,6 +149,9 @@ ul{
         width:90%;
     }
     #footer p{
+        font-size:11px;
+    }
+    #orgby{
         font-size:11px;
     }
     #imagecontainer{
