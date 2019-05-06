@@ -39,7 +39,7 @@ ul{
     width:50%;
 }
 #firstsection{
-    background-image:url("../media/about\ tidey.jpg");
+    background-image:url("../media/activity\ page.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding:0 !important;
@@ -48,6 +48,16 @@ ul{
     background-image:url("../media/first\ page\ background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    padding:50px;
+    height: 800px;
+}
+#greyoverlay{
+    background-color:#607d8bcc;
+    height: 800px;
+    position: absolute;
+    top:0;
+}
+#maincontent{
     padding:50px;
 }
 #secondsection{
@@ -60,7 +70,7 @@ ul{
     font-weight: 700;
 }
 #fifthsection{
-    background-image:url("../media/activity\ page.jpg");
+    background-image:url("../media/about\ tidey.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -160,5 +170,8 @@ ul{
     .quote{
         width:100%;
         padding:0;
+    }
+    #firstcontainer,#greyoverlay{
+        height: 600px;
     }
 }
