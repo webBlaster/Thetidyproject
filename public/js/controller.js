@@ -12,7 +12,6 @@ var volunteer = function() {
     "https://docs.google.com/forms/d/e/1FAIpQLSfa8B65cx9qOF58PEzww5vFvVvrTvm5d475njVarSfZ62L8VQ/viewform?vc=0&c=0&w=1";
 };
 
-console.log(donatebtn, volunteerbtn);
 //Event listeners
 donatebtn.forEach(function(btn, index) {
   btn.addEventListener("click", donate);
@@ -36,3 +35,23 @@ var scrolltoabout = function() {
 var scrolltoaboutres = function() {
   window.scrollBy(0, 890);
 };
+//ANIMATIONS
+//get all element reference
+var second = document.querySelector("#theproblem");
+var third = document.querySelector("#secondsection");
+var fourth = document.querySelector("#fifthsection");
+var fifth = document.querySelector("#sixthsection");
+var sixth = document.querySelector("#fourthsection");
+var seventh = document.querySelector("#footer");
+
+//define function
+/*var fadeinonscroll = function() {
+  if (window.innerWidth <= 400) {
+    if ((window.pageYOffset = 40)) {
+      console.log("scrollmobile");
+    }
+  } else {
+    console.log("way past it");
+  }
+};
+document.addEventListener("scroll", fadeinonscroll);*/

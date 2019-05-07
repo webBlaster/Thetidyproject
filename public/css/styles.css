@@ -44,6 +44,9 @@ ul{
     background-size: cover;
     padding:0 !important;
 }
+.show{
+    display:block !important;
+}
 #firstcontainer{
     background-image:url("../media/first\ page\ background.png");
     background-repeat: no-repeat;
