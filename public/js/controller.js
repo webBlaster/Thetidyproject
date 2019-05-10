@@ -45,13 +45,7 @@ var sixth = document.querySelector("#fourthsection");
 var seventh = document.querySelector("#footer");
 
 //define function
-/*var fadeinonscroll = function() {
-  if (window.innerWidth <= 400) {
-    if ((window.pageYOffset = 40)) {
-      console.log("scrollmobile");
-    }
-  } else {
-    console.log("way past it");
-  }
+var fadeinonscroll = function() {
+  console.log(window.pageYOffset + "px");
 };
-document.addEventListener("scroll", fadeinonscroll);*/
+document.addEventListener("scroll", fadeinonscroll);
