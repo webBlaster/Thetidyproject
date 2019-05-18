@@ -20,8 +20,6 @@ ul{
 
 .section{
     width:100%;
-    text-align:center;
-    padding:50px;
 }
 .section p{
     font-size:24px;
@@ -32,18 +30,39 @@ ul{
     padding:0;
 
 }
+#firstsection{
+    width:100%;
+    padding:0;
+    border:none;
+}
 #firstsection p{
     font-size: 24px;
 }
 #firstsection img{
     width:50%;
 }
-#firstsection{
-    background-image:url("../media/activity\ page.jpg");
+#slider{
+    height:100vh !important;
+}
+.slide{
+    width:100% !important;
     background-repeat: no-repeat;
     background-size: cover;
     padding:0 !important;
 }
+#firstslide{
+    background-image:url("../media/slide1.jpg");
+}
+#secondslide{
+    background-image:url("../media/slide2.jpg");
+}
+#thirdslide{
+    background-image:url("../media/slide3.jpg");
+}
+#fourthslide{
+    background-image:url("../media/slide4.jpg");
+}
+
 .show{
     display:block !important;
 }
@@ -52,76 +71,33 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     padding:50px;
-    height: 800px;
+    height:100vh;
 }
 #greyoverlay{
-    background-color:#607d8bcc;
-    height: 800px;
+    width:100%;
+    background-color:#607d8ba4;
+    height:100vh;
     position: absolute;
     top:0;
 }
 #maincontent{
+    margin-top:30vh;
     padding:50px;
 }
-#secondsection{
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-#secondsection h3{
-    font-weight: 700;
-}
-#fifthsection{
-    background-image:url("../media/about\ tidey.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-.cus-btn{
-    border-radius:60px;
-    margin:10px;
-}
-.circle-border{
-    border:6px solid white !important;
-    padding:20px;
-}
-#imagecontainer{
-    padding-top:100px;
-}
-#imagecontainer h4{
-    font-weight:700;
-}
-#sponsorlist .row{
-    width:100%;
-}
-.media-partners{
-    width:50% !important;
-}
-#sponsorlist img{
-    width:40%;
+#absolutes img{
+    width:35%;
 }
 #top{
+    border-radius: 500px;
     cursor: pointer;
     position:fixed;
     text-align:center;
-    top:90vh;
-    height: 40px;
-    width:40px;
-    right:10px;
+    top:85vh;
+    height:50px;
+    width:50px;
+    right:45px;
     background:black;
     color:white;
-}
-#sixthsection{
-    background-image:url("../media/partners\ bkgrnd\ white.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#contact{
-    padding-top:50px;
-}
-#footer{
-    padding:8px;
 }
 #orgby{
     font-size:16px;
@@ -129,20 +105,9 @@ ul{
 #footer p {
     font-size:16px;
 }
-#aboutcontainer{
-    background-image: url("../media/second\ page\ background.png");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-#fourthsection{
-    background-image: url("../media/ethiopia-wash.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
 .quote{
     width:60%;
     margin:45px auto;
-    border-top:3px solid white;
     font-size:16px;
     padding:20px;
     text-align:justify;
@@ -150,31 +115,47 @@ ul{
 }
 .quotespitter{
     font-size:11px !important;
+    margin-left:54%;
+    font-family: century gothic regular !important;
+}
+.cus-btn{
+    border-radius:30px;
+}
+#absolutes{
+    position: absolute;
+    top:5vh;
+}
+#navigation{
+    margin-right:40px;
+    text-align: right;
+}
+#navigation li{
+    display: inline-block;
+    padding:6px;
+}
+#navigation a{
+    color:white;
+}
+#absolutes .col img{
+    margin-left:40px;
 }
 @media screen and (max-width:700px){
     #firstsection p, .section p{
         font-size:17px;
     }
-    #firstsection img{
-        width:100%;
-    }
-    #sponsorlist img{
-        width:90%;
-    }
-    #footer p{
-        font-size:11px;
-    }
-    #orgby{
-        font-size:11px;
-    }
-    #imagecontainer{
-        padding-top:50px;
+    #absolutes .col img{
+        width:50%;
+        margin-left:30px;
     }
     .quote{
         width:100%;
         padding:0;
     }
+    .quotespitter{
+        font-size:11px !important;
+        margin-left:90%;
+    }
     #firstcontainer,#greyoverlay{
-        height: 565px;
+        height:100vh;
     }
 }

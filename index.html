@@ -25,7 +25,14 @@
     <script>
             $(document).ready(function(){
                $('.sidenav').sidenav();
-             });
+               $('.carousel.carousel-slider').carousel({
+                fullWidth: true
+                 });
+
+                 setInterval(function(){
+                    $('.carousel').carousel('next');
+                 },4000);
+            });
     </script>   
 
     <link rel="stylesheet" href="public/css/styles.css">
@@ -35,158 +42,86 @@
 <body>
 
     
-    <div id="firstsection" class="section white-text">
+    <div id="firstsection" class="section white-text center">
             
-        
-           <div id="firstcontainer">    
-           </div>
-           <div id="greyoverlay">
-                <div id="navigation">
-                        <nav>
-                                <div id="navcolor" class="nav-wrapper">
-                                  <a href="#!" class="brand-logo"></a>
-                                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                                  <ul class="right hide-on-med-and-down">
-                                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8B65cx9qOF58PEzww5vFvVvrTvm5d475njVarSfZ62L8VQ/viewform?vc=0&c=0&w=1">Volunteer</a></li>
-                                    <li><a href="https://paystack.com/pay/tideydonation">Donate</a></li>
-                                    <li><a href="#" onclick="scrolltoabout()">About</a></li>
-                                    <li><a href="#" onclick="scrolltobutt()">Contact</a></li>
-                                  </ul>
-                                </div>
-                              </nav>
-                            
-                              <ul class="sidenav" id="mobile-demo">
-                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8B65cx9qOF58PEzww5vFvVvrTvm5d475njVarSfZ62L8VQ/viewform?vc=0&c=0&w=1">Volunteer</a></li>
-                                <li><a href="https://paystack.com/pay/tideydonation">Donate</a></li>
-                                <li><a href="#" onclick="scrolltoaboutres()">About</a></li>
-                                <li><a href="#" onclick="scrolltobutt()">Contact</a></li>
-                              </ul>
-                </div>
-                <div id="maincontent">
-                        <img src="public/media/White logo.png" class="responsive-img">
-                        <p class="quote"><q>We shall not defeat any of the infectious diseases that
-                             plague the developing world until we have
-                             also won the battle for safe drinking water, sanitation and basic health care</q></p>
-                             
-                                <p class="quotespitter"><i>- K o f i A n n a n -</i><br/>
-                                    UN Secretary-General 1997 - 2006</p>
-                </div>
-                
-           </div>
-    </div>
+           <div class="carousel carousel-slider " id="slider">
 
-    
-        <img src="public/media/theproblem.jpg" id="theproblem" alt="">
+            <a class="carousel-item slide" id="firstslide" href="#one!">
+                <div id="firstcontainer">    
+            </div>
+            <div id="greyoverlay">
+                 
+                 <div id="maincontent" class="white-text">
+                         <p class="center quote">
+                                    Many women and girls do not have access to materials to manage their menstruation,
+                                     especially in times of emergency -- natural disasters and conflicts.
+                         </p>
+                         <p class="quotespitter center">SOURCE: UNICEF</p>
+                 </div>
+                 
+            </div></a>
+
+            <a class="carousel-item slide" id="secondslide" href="#two!">
+                <div id="firstcontainer">    
+            </div>
+            <div id="greyoverlay">
+                 
+                 <div id="maincontent" class="white-text">
+                         <p class="center quote">
+                                Poor menstrual hygiene can pose physical health risks and has been linked to reproductive and urinary tract infections.
+                                Many girls and women have limited options for affordable menstrual materials.
+                     </p>
+                     <p class="quotespitter center">SOURCE: UNICEF</p>
+                 </div>
+                 
+            </div></a>
+            <a class="carousel-item slide" id="thirdslide" href="#three!">
+                <div id="firstcontainer">    
+            </div>
+            <div id="greyoverlay">
+                 
+                 <div id="maincontent" class="white-text">
+                         <p class="center quote">
+                            Providing access to private facilities with water and safer low-cost
+                            menstrual materials could reduce urogenital diseases.
+                     </p>
+                     <p class="quotespitter center">SOURCE: UNICEF</p>
+                 </div>
+                 
+            </div></a>
+            <a class="carousel-item slide" id="fourthslide" href="#four!">
+                <div id="firstcontainer">    
+            </div>
+            <div id="greyoverlay">
+                 
+                 <div id="maincontent" class="white-text">
+                         <p class="center quote">
+                                Educating girls before their first period -- and, importantly, 
+                                boys -- on menstruation, builds their confidence,
+                                contributes to social solidarity and encourages healthy habits.
+                     </p>
+                     <p class="quotespitter center">SOURCE: UNICEF</p>
+                 </div>
+                 
+            </div></a>
+          </div>
+    </div>
    
-
-    <div id="secondsection" class="section blue-grey-text">
-        <div id="aboutcontainer">
-                <h3>ABOUT TIDEy</h3>
-                <p>In collaboration with partners,
-                     the TIDEy project is a Public Health campaign to universities and schools in Nigeria,
-                      in a bid to emphasize the importance of sanitation and hygiene while also screening
-                       for preventable diseases of public health importance and vaccinating against them.   </p>
-                        <p>
-                              The campaign will be launched on the 2019 World Environment Day, at the University of Abuja,
-                            on 5th and 6th June 2019 and would be reaching out to 1000 female students.
-                        </p>
-                        <div class="btn orange white-text cus-btn vlrbtn">Volunteer</div>
-                        <div class="btn black white-text cus-btn donatebtn">Donate</div>
+    <div id="absolutes" class="row">
+            <div class="col l6 s6" id="first">
+                   <img src="public/media/White logo.png">
+            </div>
+            <div class="col l6 s6 white-text" id="second">
+                        
+                        <ul id="navigation">
+                            <li><a href="about.html">About The TIDEy Project</a></li>
+                            <li><button class="btn cus-btn blue darken-1">Donate</button></li>
+                        </ul>
+              
+            </div>
         </div>
-    </div>
 
-    <div id="fifthsection" class="section white white-text">
-            <div class="container">
-            <div id="imagecontainer" class="row">
-                <div class="grid-item col s12 l3">
-                    <img src="public/media/health education white.png" height="180" class="circle circle-border" alt="">
-                    <h4>Health Education</h4>
-                </div>
-                <div class="grid-item col s12 l3">
-                    <img src="public/media/Hygiene kit white.png" height="180" class="circle circle-border" alt="">
-                    <h4>Hygiene Kit</h4>
-                </div>
-                <div class="grid-item col s12 l3">
-                    <img src="public/media/Health screening white.png" height="180" class="circle circle-border" alt="">
-                    <h4>Health Screening</h4>
-                </div>
-                <div class="grid-item col s12 l3">
-                    <img src="public/media/vaccination white.png" height="180" class="circle circle-border" alt="">
-                    <h4>Vaccination</h4>
-                </div>
-            </div>
-            </div>
-    </div>
-
-    <div id="sixthsection" class="section white blue-grey-text">
-        <h2>Partners</h2>
-        <div id="sponsorlist">
-            <div class="row">
-                <div class="col s3 l3">
-                    <img src="public/media/ecoprune.png" alt="">
-                </div>
-                <div class="col s3 l3">
-                    <img src="public/media/unicef.png" alt="">
-                </div>
-                <div class="col s3 l3">
-                    <img src="public/media/rekit blue.png" alt="">
-                </div>
-                <div class="col s3 l3">
-                    <img src="public/media/bclm blue.png" alt="">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col s6 l6">
-                    <img src="public/media/healthpl ble.png" alt="">
-                </div>
-                <div class="col s6 l6">
-                    <img src="public/media/medbr blue.png" alt="">
-                </div>
-            </div>
-
-            <h5>Media Partners:</h5>
-            <div class="row media-partners">
-                <div class="col s6 l6">
-                    <img src="public/media/bbc blue.png"  alt="">
-                </div>
-                <div class="col s6 l6">
-                    <img src="public/media/cbn blue.png"  alt="">
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div id="fourthsection" class="section blue-grey darken-3 white-text">
-            <p class="quote">
-                    <q>Unsafe water, inadequate sanitation and poor hygiene habits play
-                    a major role in child mortality. Bringing basic services to Africa's women
-                    and girls could transform their lives and boost child survival in the region.
-                    </q>
-            </p>
-            <p class="quotespitter"><i>- A n n V e n e m a n -</i><br/>
-                UNICEF Executive Secretary
-                2005 - 2010</p>
-            <div class="btn orange white-text cus-btn vlrbtn">Volunteer</div>
-            <div class="btn black white-text cus-btn donatebtn">Donate</div>
-            <div id="contact">Info@thetideyproject.org</div>
-            <div id="email">Contact: +234 (809) 153 3339</div>
-    </div>
-    <div id="footer" class="section center grey darken-3 grey-text">
-            <p id="orgby">
-                    The TIDEy Project is organised by the CMDA Nigeria,<br/>
-                     towards contributing to achieving the 3rd and 6th SDGs.
-            </p>
-            <p><span><a href="https://www.facebook.com/cmdanigeria" style="color: white"><i class="fab fa-facebook-square"></i></a></span>
-                <span><a href="https://www.instagram.com/cmdanigeria" style="color: white"><i class="fab fa-instagram"></i></a></span>
-                <span><a href="https://www.twitter.com/cmdanigeria" style="color: white"><i class="fab fa-twitter-square"></i></a></span>
-            </p>
-            <p><a href="http://www.cmdanigeria.net" style="color:inherit">CMDA Nigeria official website</a></p>
-        <p>&copy; 2019 CMDA Nigeria</p>
-    </div>
-
-    <button id="top" class="btn black-text white pulse floating-btn" onclick="scrolltop()">^</button>
+    <button id="top" class="btn black-text blue darken-1 pulse floating-btn"><i class="fas fa-comment" style="color:white;"></i></button>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="public/js/controller.js"></script>

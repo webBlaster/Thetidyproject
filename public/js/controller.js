@@ -20,32 +20,3 @@ donatebtn.forEach(function(btn, index) {
 volunteerbtn.forEach(function(btn, index) {
   btn.addEventListener("click", volunteer);
 });
-
-//Other scroll functions
-var scrolltop = function() {
-  window.scrollBy(0, -10000);
-};
-var scrolltobutt = function() {
-  window.scrollBy(0, 10000);
-};
-
-var scrolltoabout = function() {
-  window.scrollBy(0, 1700);
-};
-var scrolltoaboutres = function() {
-  window.scrollBy(0, 890);
-};
-//ANIMATIONS
-//get all element reference
-var second = document.querySelector("#theproblem");
-var third = document.querySelector("#secondsection");
-var fourth = document.querySelector("#fifthsection");
-var fifth = document.querySelector("#sixthsection");
-var sixth = document.querySelector("#fourthsection");
-var seventh = document.querySelector("#footer");
-
-//define function
-var fadeinonscroll = function() {
-  console.log(window.pageYOffset + "px");
-};
-document.addEventListener("scroll", fadeinonscroll);
