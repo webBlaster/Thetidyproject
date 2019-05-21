@@ -25,13 +25,14 @@
     <script>
             $(document).ready(function(){
                $('.sidenav').sidenav();
+               $('.dropdown-trigger').dropdown();
                $('.carousel.carousel-slider').carousel({
                 fullWidth: true
                  });
 
                  setInterval(function(){
                     $('.carousel').carousel('next');
-                 },4000);
+                 },10000);
             });
     </script>   
 
@@ -46,46 +47,82 @@
             
            <div class="carousel carousel-slider " id="slider">
 
+                    <a class="carousel-item slide" id="seventhslide" href="#one!">
+                            <div id="firstcontainer">    
+                        </div>
+                        <div id="greyoverlay">
+                             
+                             <div id="maincontent" class="white-text">
+                                 <p class="center quote">Globally 2.3 billion people
+                                    lack basic sanitation services.
+                                        </p>
+                                     
+                                                
+                                     <p class="quotespitter center">UNICEF</p>
+                             </div>
+                             
+                        </div></a>
             <a class="carousel-item slide" id="firstslide" href="#one!">
                 <div id="firstcontainer">    
             </div>
             <div id="greyoverlay">
                  
                  <div id="maincontent" class="white-text">
-                         <p class="center quote">
-                                    Many women and girls do not have access to materials to manage their menstruation,
-                                     especially in times of emergency -- natural disasters and conflicts.
-                         </p>
-                         <p class="quotespitter center">SOURCE: UNICEF</p>
+                     <p class="center quote">We shall not defeat any of the infectious diseases that plague the developing world 
+                         until we have also won the battle for safe drinking water, sanitation and basic health care<br>
+                            </p>
+                         
+                                    
+                         <p class="specialspitter center"> <span style="font-style:italic">
+                                - K o f i A n n a n -<br/>
+                                UN Secretary-General 1997 - 2006
+                        </span></p>
                  </div>
                  
             </div></a>
 
+            <a class="carousel-item slide" id="eightslide" href="#one!">
+                    <div id="firstcontainer">    
+                </div>
+                <div id="greyoverlay">
+                     
+                     <div id="maincontent" class="white-text">
+                         <p class="center quote">About half of the schools in low-income
+                             countries lack adequate drinking water, sanitation and hygiene crucial for girls and
+                             femaile teachers to manage their period
+                                </p>
+                             
+                                        
+                             <p class="quotespitter center">UNICEF</p>
+                     </div>
+                     
+                </div></a>
+
             <a class="carousel-item slide" id="secondslide" href="#two!">
                 <div id="firstcontainer">    
             </div>
-            <div id="greyoverlay">
+            <div class="pinkoverlay">
                  
                  <div id="maincontent" class="white-text">
                          <p class="center quote">
                                 Poor menstrual hygiene can pose physical health risks and has been linked to reproductive and urinary tract infections.
                                 Many girls and women have limited options for affordable menstrual materials.
                      </p>
-                     <p class="quotespitter center">SOURCE: UNICEF</p>
+                     <p class="quotespitter center">UNICEF</p>
                  </div>
                  
             </div></a>
             <a class="carousel-item slide" id="thirdslide" href="#three!">
                 <div id="firstcontainer">    
             </div>
-            <div id="greyoverlay">
+            <div id="blueoverlay">
                  
                  <div id="maincontent" class="white-text">
                          <p class="center quote">
                             Providing access to private facilities with water and safer low-cost
                             menstrual materials could reduce urogenital diseases.
                      </p>
-                     <p class="quotespitter center">SOURCE: UNICEF</p>
+                     <p class="quotespitter center">UNICEF</p>
                  </div>
                  
             </div></a>
@@ -100,10 +137,38 @@
                                 boys -- on menstruation, builds their confidence,
                                 contributes to social solidarity and encourages healthy habits.
                      </p>
-                     <p class="quotespitter center">SOURCE: UNICEF</p>
+                     <p class="quotespitter center">UNICEF</p>
                  </div>
                  
             </div></a>
+            <a class="carousel-item slide" id="fifthslide" href="#five!">
+                    <div id="firstcontainer">    
+                </div>
+                <div class="pinkoverlay">
+                     
+                     <div id="maincontent" class="white-text">
+                             <p class="center quote">
+                                        Many women and girls do not have access to materials to manage their menstruation,
+                                         especially in times of emergency - <span style="font-style:italic">natural disasters and conflicts.</span>
+                             </p>
+                             <p class="quotespitter center">UNICEF</p>
+                     </div>
+                     
+                </div></a>
+
+                <a class="carousel-item slide" id="sixthslide" href="#six!">
+                        <div id="firstcontainer">    
+                    </div>
+                    <div class="pinkoverlay">
+                         
+                         <div id="maincontent" class="white-text">
+                                 <p class="center quote">
+                                        If everyone, everywhere had clean water, the number of diarrhoeal deaths would be cut by a third.
+                                 </p>
+                                 <p class="specialspitter center">Tropical Medicine and International Health,<br/> 2014</p>
+                         </div>
+                         
+                    </div></a>
           </div>
     </div>
    
@@ -111,17 +176,43 @@
             <div class="col l6 s6" id="first">
                    <img src="public/media/White logo.png">
             </div>
-            <div class="col l6 s6 white-text" id="second">
+            <div class="col l6 s6 white-text center" id="second">
                         
                         <ul id="navigation">
-                            <li><a href="about.html">About The TIDEy Project</a></li>
-                            <li><button class="btn cus-btn blue darken-1">Donate</button></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8B65cx9qOF58PEzww5vFvVvrTvm5d475njVarSfZ62L8VQ/viewform?vc=0&c=0&w=1">Get Involved</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.html#partners">Partners</a></li>
+                            <li><a href="https://paystack.com/pay/tideydonation" class="btn cus-btn blue">Donate</a></li>
+                        </ul>
+                        
+
+                        <!-- Dropdown Structure -->
+                        <ul id='dropdown1' class='dropdown-content white-text'>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8B65cx9qOF58PEzww5vFvVvrTvm5d475njVarSfZ62L8VQ/viewform?vc=0&c=0&w=1">Get Involved</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="contact.html#partners">Partners</a></li>
+                        </ul>
+        
+                        <ul id="mobilenav" class="right white-text">
+                            <li>
+                                    <a class='dropdown-trigger' href='#' data-target='dropdown1'><i class="material-icons white-text">
+                                            menu
+                                            </i></a>
+                            <span>
+                                <a href="https://paystack.com/pay/tideydonation" id="navdonate" class="btn cus-btn blue">Donate</a>
+                            </span>
+                            </li>
+                               
                         </ul>
               
             </div>
         </div>
 
-    <button id="top" class="btn black-text blue darken-1 pulse floating-btn"><i class="fas fa-comment" style="color:white;"></i></button>
+    <button id="top" class="btn black-text blue darken-1 pulse floating-btn">
+        <a href="contact.html"><i class="fas fa-comment" style="color:white;"></i></a>
+    </button>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="public/js/controller.js"></script>

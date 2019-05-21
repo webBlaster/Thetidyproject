@@ -9,7 +9,7 @@ body{
     margin:0;
     padding:0;
     border:none;
-    font-family: 'Noto Sans TC' !important;
+    font-family: Segoe UI bold !important;
 }
 ul{
     list-style-type: disc !important;
@@ -51,16 +51,31 @@ ul{
     padding:0 !important;
 }
 #firstslide{
-    background-image:url("../media/slide1.jpg");
+    background-image:url("../media/slide4.jpg");
 }
 #secondslide{
     background-image:url("../media/slide2.jpg");
 }
 #thirdslide{
-    background-image:url("../media/slide3.jpg");
+    background-image:url("../media/toiletroll.jpg");
 }
 #fourthslide{
-    background-image:url("../media/slide4.jpg");
+    background-image:url("../media/kids.jpeg");
+}
+#fifthslide{
+    background-image:url("../media/toiletkit.jpg");
+}
+#sixthslide{
+    background-image:url("../media/fetchingwater.jpg");
+}
+#seventhslide{
+    background-image:url("../media/slide1.jpg");
+}
+#seventhslide .quote{
+    font-size:40px;
+}
+#eightslide{
+    background-image:url("../media/badmouth.jpg");
 }
 
 .show{
@@ -80,8 +95,22 @@ ul{
     position: absolute;
     top:0;
 }
+#blueoverlay{
+    width:100%;
+    background-color:rgba(176, 224, 230, 0.473);
+    height:100vh;
+    position: absolute;
+    top:0;
+}
+.pinkoverlay{
+    width:100%;
+    background-color:rgba(255, 192, 203, 0.411);
+    height:100vh;
+    position: absolute;
+    top:0;
+}
 #maincontent{
-    margin-top:30vh;
+    margin-top:20vh;
     padding:50px;
 }
 #absolutes img{
@@ -99,16 +128,12 @@ ul{
     background:black;
     color:white;
 }
-#orgby{
-    font-size:16px;
-}
-#footer p {
-    font-size:16px;
-}
+
 .quote{
     width:60%;
     margin:45px auto;
     font-size:16px;
+    font-family: ;
     padding:20px;
     text-align:justify;
     margin-bottom:5px;
@@ -116,7 +141,12 @@ ul{
 .quotespitter{
     font-size:11px !important;
     margin-left:54%;
-    font-family: century gothic regular !important;
+    font-family:Segoe UI regular !important;
+}
+.specialspitter{
+    font-size:11px !important;
+    margin-left:54%;
+    font-family:Segoe UI regular !important;
 }
 .cus-btn{
     border-radius:30px;
@@ -126,8 +156,9 @@ ul{
     top:5vh;
 }
 #navigation{
-    margin-right:40px;
+    margin-right:35px;
     text-align: right;
+    font-family:Segoe UI semibold;
 }
 #navigation li{
     display: inline-block;
@@ -136,12 +167,33 @@ ul{
 #navigation a{
     color:white;
 }
+#mobilenav{
+    margin-right:35px;
+    display:none;
+}
+#mobilenav li #navdonate{
+    margin-top:-12px;
+    margin-left:5px;
+}
+#dropdown1{
+    background-color:rgba(0, 0, 0, 0.075);
+}
+#dropdown1 li a{
+    font-family: Segoe UI semibold;
+    color:white;
+}
 #absolutes .col img{
     margin-left:40px;
 }
 @media screen and (max-width:700px){
     #firstsection p, .section p{
         font-size:17px;
+    }
+    #navigation{
+        display:none;
+    }
+    #mobilenav{
+        display:inline-block;
     }
     #absolutes .col img{
         width:50%;
@@ -155,7 +207,13 @@ ul{
         font-size:11px !important;
         margin-left:90%;
     }
+    .specialspitter{
+        margin-left:60%;
+    }
     #firstcontainer,#greyoverlay{
         height:100vh;
+    }
+    #seventhslide .quote{
+        font-size:20px;
     }
 }

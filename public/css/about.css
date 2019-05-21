@@ -16,28 +16,66 @@ body{
     border:none;
     margin:0;
 }
+#navigation{
+    z-index:5;
+    width:100%;
+    background-color:rgba(128, 128, 128, 0.397);
+    position: fixed;
+    top:0;
+}
+#navigation button{
+    font-weight: 700;
+}
+#navigation #logo{
+    width:100px;
+}
+#logo img{
+    padding:10px;
+    width: 50px;
+}
+#navigation ul li{
+    display: inline-block;
+    padding-right:10px;
+}
+#navigation ul li a{
+    color:white;
+}
 #gele{
+    padding-top:150px;
     margin:0;
     padding:0;
     border:none;
-    background-image: url(../media/nothappy.jpg);
+    background-image: url(../media/boy-calamity.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fadedicons{
+    background-image:url(../media/partners\ bkgrnd\ white.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #firstsection{
     width:100%;
-    padding:40px;
+    padding-left:0;
+    padding-right:0;
+    padding-top:150px;
     padding-bottom:150px;
-    background-color:rgba(255, 255, 255, 0.445);
+    background-color:rgba(255, 255, 255, 0.288);
+}
+#firstsection #content{
+    padding:40px;
+    background-color:rgb(255, 255, 255);
+    width:100%;
 }
 #firstsection p{
     font-size:20px;
+    line-height: 40px;
 }
 #three-sage-buttons{
     width:100%;
 }
 #three-sage-buttons div{
-    margin-left:3% !important;
+    margin-left:2% !important;
 }
 #secondsection{
     background-color:rgba(255, 255, 255, 0.753);
@@ -62,11 +100,24 @@ body{
     font-weight:700 !important;
 
 }
+#thirdsection{
+    background-color:rgba(255, 255, 255, 0.534);
+}
 #thirdsection i{
     font-size:20px;
 }
+#thirdsection .row .col{
+    margin-top:100px;
+}
 #fourthsection{
     position: relative;
+}
+#fourthsection button{
+    margin-left:23%;
+    z-index:6;
+    left:-2%;
+    top:650px;
+    position:absolute; 
 }
 #fourthsection img{
     width:100%;
@@ -81,32 +132,56 @@ body{
 }
 #fifthsection{
     margin-top:-20px;
-    padding-top:100px;
     background-image:url(../media/slide3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom:0;
 }
+#fifthsection .row{
+    background-image:url(../media/partners\ bkgrnd\ white.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fifthsection .spacing{
+    padding-top:200px;
+}
 #fifthquote{
-    padding:20px;
+    padding:30px;
+    padding-top:150px;
+    padding-bottom: 150px;
     border-radius:30px;
-    background-color:rgba(128, 128, 128, 0.555) !important;
+    background-color:rgba(128, 128, 128, 0.644) !important;
 }
 .fifthcircle{
     width:100%;
 }
-.fifthcircle .circle{
-    padding-top:35px;
-    font-size:30px;
-    text-align:center;
-    height:180px;
-    width:180px;
+#formrow{
+    margin-top:-100px;
+}
+#contact-form{
+    font-size:17px !important;
+    width:40%;
+    margin:auto;
+}
+#contact-form p{
+    margin:0;
+    padding:0;
+    text-align:left;
+}
+#contact-form #email,#fullname,#message{
+    background-color:rgba(255, 255, 255, 0.425);
+    border-radius: 10px;
+    padding:5px;
+}
+#message{
+    height:200px;
 }
 #partners{
     background-image: url(../media/partners\ bkgrnd\ white.png);
+
 }
 #partners img{
-    width:24%;
+    width:80%;
 }
 #footer{
     background-color:rgba(0, 0, 0, 0.329);
@@ -134,9 +209,37 @@ b{
     font-size:30px;
 }
 @media screen and (max-width:700px){
+    #firstsection{
+        padding-top:60px;
+        padding-bottom: 60px;
+    }
+    #firstsection p{
+        font-size:14px;
+        line-height: 25px;
+    }
+    #firstsection h4{
+        font-size:23px;
+    }
     #secondsection .row .col .circle{
         height:100px;
         width:100px;
         font-size:12px;
+    }
+    #formrow{
+        margin-top:0;
+    }
+    #contact-form{
+        margin-top:50px;
+        width: 90%;
+    }
+    #fourthsection button{
+        margin-left:23%;
+        z-index:6;
+        left:-7%;
+        top:220px;
+        position:absolute; 
+    }
+    #navigation li a{
+        font-size:11px;
     }
 }
