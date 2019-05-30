@@ -219,9 +219,13 @@ b{
     padding:50px;
     border-radius: 10px;
 }
+
 #donateform #amount,#donateform #email{
-    margin-top:15px;
+    margin-top:1px;
+    border:1px solid grey;
+    border-radius:3px;
     margin-bottom:15px;
+    text-align:center;
 }
 @media screen and (max-width:700px){
     #donateform{

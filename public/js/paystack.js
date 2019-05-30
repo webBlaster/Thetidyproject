@@ -5,7 +5,7 @@ var payWithPaystack = function(e) {
   var email = document.querySelector("#email");
   var amount = document.querySelector("#amount");
   var handler = PaystackPop.setup({
-    key: "pk_test_b988702aa8e06f209502e6d13402651ac892046e",
+    key: "pk_live_ae6bb7ed03893baa0e8801dad009f2afd5eed0ab",
     email: email.value,
     amount: amount.value * 100,
     currency: "NGN",
