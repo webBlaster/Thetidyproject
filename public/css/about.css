@@ -219,10 +219,15 @@ b{
     padding:50px;
     border-radius: 10px;
 }
-
+#donateform p{
+    margin:0;
+}
+#next{
+    width:100%;
+}
 #donateform #amount,#donateform #email{
     margin-top:1px;
-    border:1px solid grey;
+    border:1.3px solid grey;
     border-radius:3px;
     margin-bottom:15px;
     text-align:center;
