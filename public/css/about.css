@@ -219,6 +219,9 @@ b{
     padding:50px;
     border-radius: 10px;
 }
+#donateform span{
+    padding:0px;
+}
 #donateform p{
     margin:0;
 }
@@ -231,6 +234,18 @@ b{
     border-radius:3px;
     margin-bottom:15px;
     text-align:center;
+}
+#firstname,#lastname{
+    border:1.3px solid grey;
+    text-align:center;
+    border-radius:3px;
+}
+#first{
+    width:48%;
+    margin-right:4%;
+}
+#second{
+    width:48%;
 }
 @media screen and (max-width:700px){
     #donateform{
