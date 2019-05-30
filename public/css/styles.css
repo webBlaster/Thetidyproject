@@ -77,7 +77,14 @@ ul{
 #eightslide{
     background-image:url("../media/badmouth.jpg");
 }
-
+#elderswants{
+    position: absolute;;
+    bottom:60px;
+    left:8%;
+    text-transform: uppercase;
+    font-weight: 800;
+    z-index:20; 
+}
 .show{
     display:block !important;
 }
