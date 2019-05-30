@@ -37,10 +37,10 @@
             <a href="index.html" id="logo"><img src="public/media/Solo logo.png" class="responsive-img" alt=""></a>
                 <ul class="right">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8B65cx9qOF58PEzww5vFvVvrTvm5d475njVarSfZ62L8VQ/viewform?vc=0&c=0&w=1">Get Involved</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="contact.html#partners">Partners</a></li>
-                    <li><a href="https://paystack.com/pay/tideydonation"><button class="btn cus-btn blue-grey-text white">Donate</button></a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfa8B65cx9qOF58PEzww5vFvVvrTvm5d475njVarSfZ62L8VQ/viewform?vc=0&c=0&w=1">Be a part</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="contact.html#partners">Our partners</a></li>
+                    <li><a href="form.html"><button class="btn cus-btn blue-grey-text white">Donate</button></a></li>
                 </ul>
             </div>
 
@@ -79,11 +79,14 @@
     
     <div id="fourthsection" class="section center">
         <img src="public/media/kit draft.png" alt="">
-        <button class="btn cus-btn left blue darken-3"><a href="https://paystack.com/pay/tideydonation" style="color:white">Donate</a></button>
+        <button class="btn cus-btn left blue darken-3"><a onclick="payWithPaystack()" style="color:white">Donate</a></button>
     </div>
 
     <button id="top" class="btn white pulse floating-btn"><i class="fas fa-chevron-up"></i></button>
     <!-- Compiled and minified JavaScript -->
+    
+        <script src="https://js.paystack.co/v1/inline.js"></script> 
+        <script src="public/js/paystack.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="public/js/controller.js"></script>
 </body>

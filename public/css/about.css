@@ -209,7 +209,27 @@ body{
 b{
     font-size:30px;
 }
+#form{
+    height: 100vh;
+    padding-top:160px;
+}
+#donateform{
+    width:35%;
+    margin:auto;
+    padding:50px;
+    border-radius: 10px;
+}
+#donateform #amount,#donateform #email{
+    margin-top:15px;
+    margin-bottom:15px;
+}
 @media screen and (max-width:700px){
+    #donateform{
+        width:90%;
+        margin:auto;
+        padding:50px;
+        border-radius: 5px;
+    }
     #firstsection{
         padding-top:60px;
         padding-bottom: 60px;
@@ -230,7 +250,7 @@ b{
         margin-top:0;
     }
     #contact-form{
-        margin-top:50px;
+        margin-top:40px;
         width: 90%;
     }
     #fourthsection button{
