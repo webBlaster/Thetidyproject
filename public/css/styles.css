@@ -79,7 +79,7 @@ ul{
 }
 #elderswants{
     position: absolute;;
-    bottom:60px;
+    bottom:20vh;
     left:8%;
     text-transform: uppercase;
     font-weight: 800;
