@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 html {
     scroll-behavior: smooth;
   }
@@ -9,7 +10,7 @@ body{
     margin:0;
     padding:0;
     border:none;
-    font-family: Segoe UI bold !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 ul{
     list-style-type: disc !important;
